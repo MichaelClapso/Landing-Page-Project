@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(216, 210, 210);
     
 }
 
@@ -62,6 +63,7 @@ p {
 
 #content {
     padding-top: 100px;
+    background-color: rgb(117, 117, 255);
 }
 
 #features {
@@ -79,12 +81,17 @@ p {
     padding-top: 50px;
 }
 
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+}
 .item {
     text-align: center;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(216, 210, 210);
     padding: 15px 0;
     width: 100%;
     font-weight: 700;
+    
 }
 
 .product {
